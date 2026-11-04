@@ -1,0 +1,9 @@
+Facemaker AI Driver Safety Platform SDK
+Copyright (c) 2026 MoveMyBicycle. All rights reserved.
+
+This SDK is proprietary. Permission to use or redistribute the SDK must be
+obtained through a separate written agreement with MoveMyBicycle. Publication
+of a binary artifact does not grant an open-source license or rights to the
+SDK implementation source code. The applicable agreement governs SDK use.
+
+Contact: develop@movemybicycle.com

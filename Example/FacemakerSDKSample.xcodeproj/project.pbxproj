@@ -1,0 +1,186 @@
+// !$*UTF8*$!
+{
+  "archiveVersion" = 1;
+  "classes" = {
+  };
+  "objectVersion" = 56;
+  "objects" = {
+    "828D338A9B04221C9CBE286F" = {
+      "isa" = "PBXFileReference";
+      "lastKnownFileType" = "sourcecode.swift";
+      "path" = "SampleApp.swift";
+      "sourceTree" = "<group>";
+    };
+    "0112DAE3F84CB4DF5179BE01" = {
+      "isa" = "PBXFileReference";
+      "lastKnownFileType" = "text.plist.xml";
+      "path" = "Info.plist";
+      "sourceTree" = "<group>";
+    };
+    "7D1043473D55BFA90E8530D3" = {
+      "isa" = "PBXFileReference";
+      "explicitFileType" = "wrapper.application";
+      "path" = "FacemakerSDKSample.app";
+      "sourceTree" = "BUILT_PRODUCTS_DIR";
+    };
+    "B28B7AF69320201D1CF206EB" = {
+      "isa" = "PBXGroup";
+      "children" = ("828D338A9B04221C9CBE286F", "0112DAE3F84CB4DF5179BE01", "FBDC4F23F93125BBEEAE800C");
+      "sourceTree" = "<group>";
+    };
+    "FBDC4F23F93125BBEEAE800C" = {
+      "isa" = "PBXGroup";
+      "children" = ("7D1043473D55BFA90E8530D3");
+      "name" = "Products";
+      "sourceTree" = "<group>";
+    };
+    "F3C0D78BACD4BC7D9E780E5C" = {
+      "isa" = "PBXBuildFile";
+      "fileRef" = "828D338A9B04221C9CBE286F";
+    };
+    "85ACBC9E5B7AAD60F0EB8BD0" = {
+      "isa" = "PBXBuildFile";
+      "productRef" = "2E43938D874D11127BA5A0DA";
+    };
+    "441BE0495D5DF14C1C120247" = {
+      "isa" = "PBXBuildFile";
+      "productRef" = "9B7BED31F6F48AD5D908B2BC";
+    };
+    "BCE16DD0260827ECF338C787" = {
+      "isa" = "PBXSourcesBuildPhase";
+      "buildActionMask" = 2147483647;
+      "files" = ("F3C0D78BACD4BC7D9E780E5C");
+      "runOnlyForDeploymentPostprocessing" = 0;
+    };
+    "7561BFB015D8F536760CB671" = {
+      "isa" = "PBXFrameworksBuildPhase";
+      "buildActionMask" = 2147483647;
+      "files" = ("85ACBC9E5B7AAD60F0EB8BD0", "441BE0495D5DF14C1C120247");
+      "runOnlyForDeploymentPostprocessing" = 0;
+    };
+    "0189424A5A60FED329FA868E" = {
+      "isa" = "PBXResourcesBuildPhase";
+      "buildActionMask" = 2147483647;
+      "files" = ();
+      "runOnlyForDeploymentPostprocessing" = 0;
+    };
+    "582681C2EAE02B3F3D399C0C" = {
+      "isa" = "XCRemoteSwiftPackageReference";
+      "repositoryURL" = "https://github.com/facemaker-ai-driver-safety-platform/facemaker-driver-sdk-ios.git";
+      "requirement" = {
+        "kind" = "exactVersion";
+        "version" = "0.1.1";
+      };
+    };
+    "2E43938D874D11127BA5A0DA" = {
+      "isa" = "XCSwiftPackageProductDependency";
+      "package" = "582681C2EAE02B3F3D399C0C";
+      "productName" = "FacemakerDriverSDK";
+    };
+    "9B7BED31F6F48AD5D908B2BC" = {
+      "isa" = "XCSwiftPackageProductDependency";
+      "package" = "582681C2EAE02B3F3D399C0C";
+      "productName" = "FacemakerDriverSDKUI";
+    };
+    "0E8A3AD980EC179856012B7E" = {
+      "isa" = "PBXNativeTarget";
+      "buildConfigurationList" = "976B52545947CA66FD9EF2A4";
+      "buildPhases" = ("BCE16DD0260827ECF338C787", "7561BFB015D8F536760CB671", "0189424A5A60FED329FA868E");
+      "buildRules" = ();
+      "dependencies" = ();
+      "name" = "FacemakerSDKSample";
+      "packageProductDependencies" = ("2E43938D874D11127BA5A0DA", "9B7BED31F6F48AD5D908B2BC");
+      "productName" = "FacemakerSDKSample";
+      "productReference" = "7D1043473D55BFA90E8530D3";
+      "productType" = "com.apple.product-type.application";
+    };
+    "7FCD0DA8B2954BD963D5B5C4" = {
+      "isa" = "XCBuildConfiguration";
+      "buildSettings" = {
+        "SDKROOT" = "iphoneos";
+        "IPHONEOS_DEPLOYMENT_TARGET" = "15.0";
+        "SWIFT_VERSION" = "5.0";
+        "ONLY_ACTIVE_ARCH" = "YES";
+        "CLANG_ENABLE_MODULES" = "YES";
+      };
+      "name" = "Debug";
+    };
+    "504B6810B36BF9ADE0C509C4" = {
+      "isa" = "XCBuildConfiguration";
+      "buildSettings" = {
+        "SDKROOT" = "iphoneos";
+        "IPHONEOS_DEPLOYMENT_TARGET" = "15.0";
+        "SWIFT_VERSION" = "5.0";
+        "ONLY_ACTIVE_ARCH" = "NO";
+        "CLANG_ENABLE_MODULES" = "YES";
+      };
+      "name" = "Release";
+    };
+    "E1698793B8B09B32821D3120" = {
+      "isa" = "XCBuildConfiguration";
+      "buildSettings" = {
+        "SDKROOT" = "iphoneos";
+        "IPHONEOS_DEPLOYMENT_TARGET" = "15.0";
+        "SWIFT_VERSION" = "5.0";
+        "ONLY_ACTIVE_ARCH" = "YES";
+        "CLANG_ENABLE_MODULES" = "YES";
+        "PRODUCT_BUNDLE_IDENTIFIER" = "com.movemybicycle.facemaker.sdk.publicsample";
+        "PRODUCT_NAME" = "$(TARGET_NAME)";
+        "INFOPLIST_FILE" = "Info.plist";
+        "CODE_SIGN_STYLE" = "Automatic";
+        "TARGETED_DEVICE_FAMILY" = "1,2";
+        "LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+        "SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+      };
+      "name" = "Debug";
+    };
+    "FFACE85B9B63AB569355131D" = {
+      "isa" = "XCBuildConfiguration";
+      "buildSettings" = {
+        "SDKROOT" = "iphoneos";
+        "IPHONEOS_DEPLOYMENT_TARGET" = "15.0";
+        "SWIFT_VERSION" = "5.0";
+        "ONLY_ACTIVE_ARCH" = "NO";
+        "CLANG_ENABLE_MODULES" = "YES";
+        "PRODUCT_BUNDLE_IDENTIFIER" = "com.movemybicycle.facemaker.sdk.publicsample";
+        "PRODUCT_NAME" = "$(TARGET_NAME)";
+        "INFOPLIST_FILE" = "Info.plist";
+        "CODE_SIGN_STYLE" = "Automatic";
+        "TARGETED_DEVICE_FAMILY" = "1,2";
+        "LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+        "SWIFT_OPTIMIZATION_LEVEL" = "-O";
+      };
+      "name" = "Release";
+    };
+    "640DC9EFD529235A8D9E2727" = {
+      "isa" = "XCConfigurationList";
+      "buildConfigurations" = ("7FCD0DA8B2954BD963D5B5C4", "504B6810B36BF9ADE0C509C4");
+      "defaultConfigurationIsVisible" = 0;
+      "defaultConfigurationName" = "Release";
+    };
+    "976B52545947CA66FD9EF2A4" = {
+      "isa" = "XCConfigurationList";
+      "buildConfigurations" = ("E1698793B8B09B32821D3120", "FFACE85B9B63AB569355131D");
+      "defaultConfigurationIsVisible" = 0;
+      "defaultConfigurationName" = "Release";
+    };
+    "98F54143AB4E86B28C3AFEE0" = {
+      "isa" = "PBXProject";
+      "attributes" = {
+        "LastUpgradeCheck" = "2720";
+      };
+      "buildConfigurationList" = "640DC9EFD529235A8D9E2727";
+      "compatibilityVersion" = "Xcode 14.0";
+      "developmentRegion" = "en";
+      "hasScannedForEncodings" = 0;
+      "knownRegions" = ("en", "Base");
+      "mainGroup" = "B28B7AF69320201D1CF206EB";
+      "productRefGroup" = "FBDC4F23F93125BBEEAE800C";
+      "projectDirPath" = "";
+      "projectRoot" = "";
+      "packageReferences" = ("582681C2EAE02B3F3D399C0C");
+      "targets" = ("0E8A3AD980EC179856012B7E");
+    };
+  };
+  "rootObject" = "98F54143AB4E86B28C3AFEE0";
+}
